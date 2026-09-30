@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vindhya | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top">Vindhya</a>
+  <nav aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <h1>I build small programs and learn how they work underneath.</h1>
+    <pre class="struct" aria-label="A C struct describing me"><code><span class="k">struct</span> Developer {
+    <span class="t">char</span> *name;      <span class="c">// Vindhya</span>
+    <span class="t">char</span> *learning;  <span class="c">// C, Python, Git</span>
+    <span class="t">int</span>   projects;  <span class="c">// 2 and counting</span>
+};</code></pre>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm a computer science student who likes understanding what a program is doing in memory, not just whether it runs. Right now I'm working through C (structs, pointers, dynamic memory), object-oriented Python, and the logic behind both.</p>
+    <p>I write small, focused programs, test them by hand, and keep everything in Git.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <article class="project">
+      <h3>Book and Publisher Manager</h3>
+      <p class="stack">C</p>
+      <p>A console program that stores books and their publishers using nested structs. It allocates the book list with <code>malloc</code>, and uses functions that return pointers to find the book with the minimum and maximum values.</p>
+      <p class="links"><a href="https://github.com/YOUR_GITHUB_USERNAME/book-publisher-c">View on GitHub</a></p>
+    </article>
+    <article class="project">
+      <h3>Hero Class</h3>
+      <p class="stack">Python</p>
+      <p>A character class that shows encapsulation: private attributes exposed through properties, health and mana tracking, level-ups, and methods to withdraw and deposit health.</p>
+      <p class="links"><a href="https://github.com/YOUR_GITHUB_USERNAME/hero-class-python">View on GitHub</a></p>
+    </article>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <div><dt>Languages</dt><dd>C, Python, HTML, CSS</dd></div>
+      <div><dt>Concepts</dt><dd>Structs, pointers, dynamic memory, encapsulation, propositional logic</dd></div>
+      <div><dt>Tools</dt><dd>Git, GitHub, CLion, macOS terminal</dd></div>
+    </dl>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>The fastest way to reach me is email.</p>
+    <ul class="contact">
+      <li><a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></li>
+      <li><a href="https://github.com/YOUR_GITHUB_USERNAME">github.com/YOUR_GITHUB_USERNAME</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer><p>&copy; 2026 Vindhya</p></footer>
+</body>
+</html>
